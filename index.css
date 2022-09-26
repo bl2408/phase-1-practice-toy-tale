@@ -97,3 +97,12 @@ button:hover {
   font-family: monospace;
   margin: 3px;
 }
+
+.highlight{
+  animation: fadeIn 2s; 
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
